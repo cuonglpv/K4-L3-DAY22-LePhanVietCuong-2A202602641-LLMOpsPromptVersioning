@@ -1,5 +1,7 @@
 # Evidence — Day 22 Lab (Lê Phan Việt Cường — 2A202602641)
 
+**LangSmith project (`day22-lab`, ≥ 100 traces):** https://smith.langchain.com/o/ae060a05-61eb-410b-8545-344cf2cfb29c/projects/p/8bbed069-fd6f-484e-a1a4-5ad9a574d456
+
 ## Danh sách tệp
 
 | Tệp | Nội dung |
