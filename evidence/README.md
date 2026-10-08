@@ -2,6 +2,8 @@
 
 **LangSmith project (`day22-lab`, ≥ 100 traces):** https://smith.langchain.com/o/ae060a05-61eb-410b-8545-344cf2cfb29c/projects/p/8bbed069-fd6f-484e-a1a4-5ad9a574d456
 
+**Tổng traces:** 50 `rag-query` (`01_langsmith_traces.png`) + ≥ 50 `ab-rag-query` (`02_ab_traces.png`) ≥ 100.
+
 ## Danh sách tệp
 
 | Tệp | Nội dung |
@@ -11,6 +13,7 @@
 | `01_rag_pipeline_log.txt` | Log chạy 50 câu hỏi Bước 1 |
 | `00_project_overview.png` | Project `day22-lab` trên LangSmith (≥ 100 traces) |
 | `02_prompt_hub.png` | 2 prompt `le-phan-viet-cuong-rag-prompt-v1` / `-v2` trên Prompt Hub |
+| `02_ab_traces.png` | Danh sách traces `ab-rag-query` (lọc `tag:step2`) — 100 traces (Bước 2 chạy 2 lần: chạy riêng + qua `run_all.py`) |
 | `02_ab_routing_log.txt` | Log push/pull Hub + A/B routing có nhãn `[prompt-v1]` / `[prompt-v2]` (V1=19, V2=31) |
 | `03_ragas_scores.png` | Bảng so sánh RAGAS V1 vs V2 |
 | `03_ragas_report.json` | Bản sao `data/ragas_report.json` |
