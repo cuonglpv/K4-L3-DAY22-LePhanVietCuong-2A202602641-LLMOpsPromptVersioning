@@ -2,7 +2,7 @@
 
 **LangSmith project (`day22-lab`, ≥ 100 traces):** https://smith.langchain.com/o/ae060a05-61eb-410b-8545-344cf2cfb29c/projects/p/8bbed069-fd6f-484e-a1a4-5ad9a574d456
 
-**Tổng traces:** 50 `rag-query` (`01_langsmith_traces.png`) + ≥ 50 `ab-rag-query` (`02_ab_traces.png`) ≥ 100.
+**Tổng traces:** 603 traces trong project (`00_total_traces.png`), gồm 50 `rag-query` (`01_langsmith_traces.png`), 100 `ab-rag-query` (`02_ab_traces.png`) và các trace sinh ra khi chạy Bước 3 (RAGAS).
 
 ## Danh sách tệp
 
@@ -11,6 +11,7 @@
 | `01_langsmith_traces.png` | Danh sách traces `rag-query` (lọc `tag:step1`) — 50 traces |
 | `01_trace_detail.png` | Cây xử lý 1 trace: `VectorStoreRetriever` → `format_docs` → `ChatPromptTemplate` → `ChatOpenAI` → `StrOutputParser` |
 | `01_rag_pipeline_log.txt` | Log chạy 50 câu hỏi Bước 1 |
+| `00_total_traces.png` | Tab Traces của project `day22-lab`, không lọc — Stats · 603 traces |
 | `00_project_overview.png` | Project `day22-lab` trên LangSmith (≥ 100 traces) |
 | `02_prompt_hub.png` | 2 prompt `le-phan-viet-cuong-rag-prompt-v1` / `-v2` trên Prompt Hub |
 | `02_ab_traces.png` | Danh sách traces `ab-rag-query` (lọc `tag:step2`) — 100 traces (Bước 2 chạy 2 lần: chạy riêng + qua `run_all.py`) |
